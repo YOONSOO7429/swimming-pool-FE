@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Environment variables (change this to your actual environment variable file path)
+.env
+
 # dependencies
 /node_modules
 /.pnp
