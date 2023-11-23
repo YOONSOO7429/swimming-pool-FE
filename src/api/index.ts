@@ -1,5 +1,11 @@
+import type * as myInterface from "../assets/interfaces";
+
 interface Message {
   message: string;
 }
 
-export const login = {};
+export const signUp = {
+  signup: async (payload: myInterface.User) => {
+    // const {data} = await instance.
+  },
+};
